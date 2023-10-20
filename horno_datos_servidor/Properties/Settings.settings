@@ -1,0 +1,261 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="horno_datos_servidor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="directorio_1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Users\\HYSTOU\\Desktop</Value>
+    </Setting>
+    <Setting Name="archivo_csv" Type="System.String" Scope="User">
+      <Value Profile="(Default)">datos_acero.csv</Value>
+    </Setting>
+    <Setting Name="directorio_res" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Users\\HYSTOU\\Desktop\\carpeta\\datos_horno_respaldo.csv</Value>
+    </Setting>
+    <Setting Name="d_source" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="puerto" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3305</Value>
+    </Setting>
+    <Setting Name="db_usuario" Type="System.String" Scope="User">
+      <Value Profile="(Default)">admin</Value>
+    </Setting>
+    <Setting Name="db_contra" Type="System.String" Scope="User">
+      <Value Profile="(Default)">4dmini5tradoR?1</Value>
+    </Setting>
+    <Setting Name="db_nombre" Type="System.String" Scope="User">
+      <Value Profile="(Default)">aceria_db</Value>
+    </Setting>
+    <Setting Name="num_colada" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NumeroColada</Value>
+    </Setting>
+    <Setting Name="fecha_colada" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fecha</Value>
+    </Setting>
+    <Setting Name="hora_colada" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hora</Value>
+    </Setting>
+    <Setting Name="dia_colada" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CONTADOR</Value>
+    </Setting>
+    <Setting Name="recargue_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Recargues</Value>
+    </Setting>
+    <Setting Name="oxlan_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OxigenoLanceado</Value>
+    </Setting>
+    <Setting Name="pesot_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PesoTotal</Value>
+    </Setting>
+    <Setting Name="antracita_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Antracita</Value>
+    </Setting>
+    <Setting Name="grafito_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Grafito</Value>
+    </Setting>
+    <Setting Name="tcarbon_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TotalCarbon</Value>
+    </Setting>
+    <Setting Name="gasoleo_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Gasoleo</Value>
+    </Setting>
+    <Setting Name="glp_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GLP</Value>
+    </Setting>
+    <Setting Name="ox_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Oxigeno</Value>
+    </Setting>
+    <Setting Name="espuma_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Espumante</Value>
+    </Setting>
+    <Setting Name="fusion_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">KWHFusion</Value>
+    </Setting>
+    <Setting Name="tfusion_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TiempoFusion</Value>
+    </Setting>
+    <Setting Name="afino_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">KWHAfino</Value>
+    </Setting>
+    <Setting Name="tafino_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TiempoAfino</Value>
+    </Setting>
+    <Setting Name="kwtotal_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">KWHTotal</Value>
+    </Setting>
+    <Setting Name="pon_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PowerON</Value>
+    </Setting>
+    <Setting Name="poff_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PowerOff</Value>
+    </Setting>
+    <Setting Name="carbon_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Carbon</Value>
+    </Setting>
+    <Setting Name="tempfinal_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TemperaturaFinal</Value>
+    </Setting>
+    <Setting Name="ttotal_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TiempoTotal</Value>
+    </Setting>
+    <Setting Name="endbrick_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EndBrick</Value>
+    </Setting>
+    <Setting Name="grado_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Grado</Value>
+    </Setting>
+    <Setting Name="fun_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fundidor</Value>
+    </Setting>
+    <Setting Name="jefe_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">JefeTurno</Value>
+    </Setting>
+    <Setting Name="hinicio_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">HoraInicio</Value>
+    </Setting>
+    <Setting Name="tvaciado_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TiempoVaciado</Value>
+    </Setting>
+    <Setting Name="jor_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jornada</Value>
+    </Setting>
+    <Setting Name="psmart_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PrograSmart</Value>
+    </Setting>
+    <Setting Name="pdigit_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PrograDigit</Value>
+    </Setting>
+    <Setting Name="pcesta1_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PesoCesta1</Value>
+    </Setting>
+    <Setting Name="pcesta2_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PesoCesta2</Value>
+    </Setting>
+    <Setting Name="pcesta3_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PesoCesta3</Value>
+    </Setting>
+    <Setting Name="pcesta4_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PesoCesta4</Value>
+    </Setting>
+    <Setting Name="pcesta5_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PesoCesta5</Value>
+    </Setting>
+    <Setting Name="horno_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ColadasHorno</Value>
+    </Setting>
+    <Setting Name="delta_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ColadasDelta</Value>
+    </Setting>
+    <Setting Name="celec1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ColadasElec1</Value>
+    </Setting>
+    <Setting Name="celec2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ColadasElect2</Value>
+    </Setting>
+    <Setting Name="celec3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ColadasElect3</Value>
+    </Setting>
+    <Setting Name="caldol_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CalDolomitica</Value>
+    </Setting>
+    <Setting Name="calcal_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CalCalcitica</Value>
+    </Setting>
+    <Setting Name="kalister_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Kalister</Value>
+    </Setting>
+    <Setting Name="torta_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Torta</Value>
+    </Setting>
+    <Setting Name="tempcen_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TemperaturaCentro</Value>
+    </Setting>
+    <Setting Name="tempevt_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TemperaturaEVT</Value>
+    </Setting>
+    <Setting Name="temppuer_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TemperaturaPuerta</Value>
+    </Setting>
+    <Setting Name="temp12_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Temperatura12</Value>
+    </Setting>
+    <Setting Name="temp23_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Temperatura23</Value>
+    </Setting>
+    <Setting Name="temp31_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Temperatura31</Value>
+    </Setting>
+    <Setting Name="tsellado_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TiempoDeSellado</Value>
+    </Setting>
+    <Setting Name="tarmado_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TiempoDeArmado</Value>
+    </Setting>
+    <Setting Name="t1recar_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tiempo1Recargue</Value>
+    </Setting>
+    <Setting Name="tabierta1_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TiempoBovedaAbierta1rCarga</Value>
+    </Setting>
+    <Setting Name="t2recar_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tiempo2Recargue</Value>
+    </Setting>
+    <Setting Name="tabierta2_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TiempoBovedaAbierta2aCarga</Value>
+    </Setting>
+    <Setting Name="t3recar_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tiempo3Recargue</Value>
+    </Setting>
+    <Setting Name="tabierta3_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TiempoBovedaAbierta3aCarga</Value>
+    </Setting>
+    <Setting Name="t4recar_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tiempo4Recargue</Value>
+    </Setting>
+    <Setting Name="tabierta4_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TiempoBovedaAbierta4aCarga</Value>
+    </Setting>
+    <Setting Name="tvaciado1_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TiempoVaciado1</Value>
+    </Setting>
+    <Setting Name="espc1_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">KwhEspecificaC1</Value>
+    </Setting>
+    <Setting Name="espc2_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">KwhEspecificaC2</Value>
+    </Setting>
+    <Setting Name="espc3_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">KwhEspecificaC3</Value>
+    </Setting>
+    <Setting Name="espc4_col" Type="System.String" Scope="User">
+      <Value Profile="(Default)">KwhEspecificaC4</Value>
+    </Setting>
+    <Setting Name="fecha_mcc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FechaT</Value>
+    </Setting>
+    <Setting Name="hora_mcc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">HoraT</Value>
+    </Setting>
+    <Setting Name="peso_mcc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Peso1</Value>
+    </Setting>
+    <Setting Name="lingotes_mcc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CantLingote</Value>
+    </Setting>
+    <Setting Name="pacero_mcc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PesoAcero</Value>
+    </Setting>
+    <Setting Name="num_col_mcc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NumeroColada</Value>
+    </Setting>
+    <Setting Name="minuto" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="directorio_log" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Users\\HYSTOU\\Desktop\\carpeta\\consola_log.txt</Value>
+    </Setting>
+    <Setting Name="archivo_csv_mcc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ton_acero.csv</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

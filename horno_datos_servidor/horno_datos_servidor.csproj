@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{525BBB79-ECE2-4B21-A2A0-9DD2596F76A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>horno_datos_servidor</RootNamespace>
+    <AssemblyName>horno_datos_servidor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data" />
+    <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clases\colada.cs" />
+    <Compile Include="clases\colada_mcc.cs" />
+    <Compile Include="clases\conexion.cs" />
+    <Compile Include="clases\Consultas.cs" />
+    <Compile Include="clases\Consultas_bit.cs" />
+    <Compile Include="clases\Consultas_col.cs" />
+    <Compile Include="clases\Consultas_fun.cs" />
+    <Compile Include="clases\Consultas_gra.cs" />
+    <Compile Include="clases\Consultas_jef.cs" />
+    <Compile Include="clases\Consultas_jor.cs" />
+    <Compile Include="clases\Consultas_mcc.cs" />
+    <Compile Include="clases\estados.cs" />
+    <Compile Include="clases\fundidor.cs" />
+    <Compile Include="clases\t_usuario.cs" />
+    <Compile Include="CSV.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\configuracion.Designer.cs">
+      <DependentUpon>configuracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\config_bdatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\config_bdatos.Designer.cs">
+      <DependentUpon>config_bdatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\config_variables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\config_variables.Designer.cs">
+      <DependentUpon>config_variables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\config_var_mcc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\config_var_mcc.Designer.cs">
+      <DependentUpon>config_var_mcc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\fun_agr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\fun_agr.Designer.cs">
+      <DependentUpon>fun_agr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\gra_agr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\gra_agr.Designer.cs">
+      <DependentUpon>gra_agr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\jef_agr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\jef_agr.Designer.cs">
+      <DependentUpon>jef_agr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\jor_agr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\jor_agr.Designer.cs">
+      <DependentUpon>jor_agr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\rest_contra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\rest_contra.Designer.cs">
+      <DependentUpon>rest_contra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\usu_agr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\usu_agr.Designer.cs">
+      <DependentUpon>usu_agr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\configuracion.resx">
+      <DependentUpon>configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\config_bdatos.resx">
+      <DependentUpon>config_bdatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\config_variables.resx">
+      <DependentUpon>config_variables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\config_var_mcc.resx">
+      <DependentUpon>config_var_mcc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\fun_agr.resx">
+      <DependentUpon>fun_agr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\gra_agr.resx">
+      <DependentUpon>gra_agr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\jef_agr.resx">
+      <DependentUpon>jef_agr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\jor_agr.resx">
+      <DependentUpon>jor_agr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\rest_contra.resx">
+      <DependentUpon>rest_contra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\usu_agr.resx">
+      <DependentUpon>usu_agr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\DataSources\base_datos.BDQuerys.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
